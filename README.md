@@ -14,4 +14,4 @@
 
 ## Project Report
 
-See [SQA-REPO.md] (SQA-REPO.md) for activities, replication steps, and lesson learned.
+See [SQA-REPO.md](SQA-REPO.md) for activities, replication steps, and lesson learned.
