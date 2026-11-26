@@ -56,7 +56,7 @@ python fuzz.py
 python run_forensics.py TEST_ARTIFACTS --max-files 10
 ```
  
-To run CI, push to 'main' or use **Actions → SQA CI → Run workflow**.
+To run CI, push to 'main' or use **Actions -> SQA CI -> Run workflow**.
  
 ## 4. What we learned
  
