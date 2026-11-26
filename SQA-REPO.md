@@ -48,13 +48,13 @@ The workflow runs on every push and pull request to 'main'. It runs lint, unit t
 - ['ci-artifacts.png'](screenshots/ci-artifacts.png): the uploaded 'sqa-reports' artifact
 ## 3. How to replicate
  
-'''bash
+```bash
 git clone https://github.com/wzk0029/WooSam-FALL2026-COMP5710-project.git
 cd WooSam-FALL2026-COMP5710-project
 python -m pip install ruamel.yaml pandas numpy sarif-om jschema-to-python typer
 python fuzz.py
 python run_forensics.py TEST_ARTIFACTS --max-files 10
-'''
+```
  
 To run CI, push to 'main' or use **Actions → SQA CI → Run workflow**.
  
